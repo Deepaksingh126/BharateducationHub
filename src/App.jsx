@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
 import Content from "./components/Content";
 import Home from "./components/Home";
-import Question from "./components/question";
+import Question from "./components/Question";
 import "./index.css";
 
 function App() {
