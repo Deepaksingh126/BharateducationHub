@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Deepaksingh126.github.io/BharateducationHub",
+  "homepage": "https://deepaksingh126.github.io/BharateducationHub/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
