@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: #111;
+  --light-color: #333;
+  --blur-color: #ffffff49;
+
+}
+
+/* 
+.dashboard {
+  min-width: 10vw;
+  padding: 20px;
+  background-color: var(--background-color);
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 100px;
+  z-index: 50;
+}
+
+.dashboard h2 {
+  text-align: left;
+  margin: 10px 0px;
+  padding: 4px 10px;
+  background-color: var(--light-color);
+  border-radius: 12px;
+  font-style: 12px;
+  font-weight: 400;
+}
+
+.dashboard h2:hover {
+  background-color: #7c7c7c;
+}
+
+.dashboard #class-subjects {
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff28;
+  color: black;
+  backdrop-filter: blur(10px);
+  position: relative;
+  border-radius: 12px;
+  top: -100px;
+  right: -120%;
+} */
+
+
+/* main stuling */
+main.question-cont {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  width: 87vw;
+  padding: 20px;
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+
+main.question-cont section {
+  margin-bottom: 30px;
+  padding: 3vw;
+  border: 1px solid rgba(255, 255, 255, 0.584);
+  border-radius: 5px;
+  background-color: var(--light-color);
+  min-height: 90vh;
+}
+
+#headings {
+  border-bottom: 1px solid white;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+#headings h2 {
+  width: 100%;
+  min-height: 40px;
+  margin-bottom: 20px;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#headings h2:hover {
+  background-color: var(--background-color);
+}
+
+section ol h6 {
+  font-size: 1.5em;
+  margin: 0px 0px 20px 20px;
+}
+
+
+.question-cont section * {
+  transition: all 0.5s;
+}
+
+.question-cont ol>li {
+  padding: 20px 0px;
+}
+
+.question-cont #video,
+.question-cont #solution {
+  height: 100%;
+  display: none;
+}
+
+.question-cont#solution p {
+  display: block;
+}
+
+.question-cont section h2 {
+  font-size: 2em;
+  text-align: center;
+}
